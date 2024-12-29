@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".privacy_setting"
+    android:orientation="vertical"
+    android:background="@color/white">
+    <ImageView
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:src="@drawable/back_dark"
+        android:id="@+id/privacy_setting_back"
+        android:layout_weight="0"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_gravity="left|top"
+        android:padding="5dp"/>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/setting_list"
+        android:layout_margin="10dp">
+
+
+    </ListView>
+
+
+</LinearLayout>

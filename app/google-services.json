@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "375557167712",
+    "firebase_url": "https://darkmsg-default-rtdb.firebaseio.com",
+    "project_id": "darkmsg",
+    "storage_bucket": "darkmsg.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:375557167712:android:9e5d7483fefd4653094105",
+        "android_client_info": {
+          "package_name": "com.example.friends"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "375557167712-kq2ltaacot1pfb0m42livmnvv2orltje.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.friends",
+            "certificate_hash": "135b7011b0dcf73a2251973ed4ce941577d58e7d"
+          }
+        },
+        {
+          "client_id": "375557167712-i22arvnggk91n7naq86c3lph2cpo0at8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "<API key>"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "375557167712-i22arvnggk91n7naq86c3lph2cpo0at8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

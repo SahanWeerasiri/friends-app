@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:padding="5dp">
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/sample_image"
+        app:civ_border_color="@color/white"
+        app:civ_border_width="2dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="5dp"
+        android:orientation="vertical"
+        android:gravity="center_vertical"
+        android:id="@+id/touch"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:layout_marginLeft="5dp"
+            android:text="Name"
+            android:textStyle="bold"
+            android:layout_weight="2"
+            android:textColor="@color/white"
+            android:id="@+id/sample_name"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:layout_weight="1"
+                android:textAlignment="textEnd"
+                android:layout_marginLeft="5dp"
+                android:text="Name"
+                android:textStyle="bold"
+                android:textColor="@color/red"
+                android:id="@+id/sample_online"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="10dp"
+                android:text="Last Message"
+                android:layout_weight="3"
+                android:textStyle="italic"
+                android:textColor="@color/grey_light"
+                android:id="@+id/sample_last_msg"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="textEnd"
+                android:layout_weight="2"
+                android:textSize="10dp"
+                android:text="Last Time"
+                android:textStyle="italic"
+                android:textColor="@color/grey_light"
+                android:id="@+id/sample_last_time"
+                android:gravity="end" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

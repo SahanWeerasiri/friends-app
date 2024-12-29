@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_gravity="right"
+    android:layout_weight="1"
+
+
+    >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/incomming"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/sender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="2dp"
+            android:maxWidth="310dp"
+            android:minWidth="100dp"
+            android:padding="1dp"
+            android:text="sender"
+            android:textColor="@color/grey_light"
+            android:textSize="10dp"
+
+            />
+
+        <TextView
+            android:id="@+id/receive_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="0dp"
+            android:maxWidth="310dp"
+            android:minWidth="100dp"
+            android:padding="5dp"
+            android:text="Sample Message"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/receive_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|bottom"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="5dp"
+                android:text="sample date"
+                android:textColor="@color/grey_light"
+                android:textSize="10dp" />
+
+            <TextView
+                android:id="@+id/receive_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right|bottom"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="5dp"
+                android:text="sample time"
+                android:textColor="@color/grey_light"
+                android:textSize="10dp"
+                tools:ignore="DuplicateIds" />
+
+        </LinearLayout>
+
+
+
+    </LinearLayout></RelativeLayout>
